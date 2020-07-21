@@ -36,7 +36,7 @@ namespace AttendanceManagement
     public class ApplicationUserManager : UserManager<ApplicationUser>
     {
         public ApplicationUserManager(IUserStore<ApplicationUser> store)
-            : base(store)
+            :  base(store)
         {
         }
 
